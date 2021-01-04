@@ -1,3 +1,5 @@
+//dp - 이전의 기록을 이용하여 다음 행렬값을 갱신
+
 #include <vector>
 
 using namespace std;
