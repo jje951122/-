@@ -27,7 +27,7 @@ int solution(int n, int m, vector<vector<int>> edge_list, int k, vector<int> gps
             }
         }
     }
-    if (dp[k-1][gps_log[k-1]] < INF)
+    if (dp[k-1][gps_log[k-1]] != INF)
         return dp[k-1][gps_log[k-1]];
     else
         return -1;
